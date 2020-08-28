@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Découvrir Bootstrap 4</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/perso.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+</head>
+<body>
+   <header class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <a href="index.html" class="navbar-brand">
+           <img src="images/gio.png" alt="moi" class="img-fluid width-640 h-360 img-circle img-responsive"/>
+        </a><!--end a.navbar-brand-->
+        <div class="h2 firstname">
+            <p> Giovanni</p>
+        
+            <p> Ventoso</p>
+        </div>
+            
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-content">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-content">
+            <nav class="d-flex ml-auto">
+                
+               <ul class="navbar-nav">
+                   
+                   <li class="nav-item"><a href="index.html" class="nav-link">Accueil</a></li>
+                   <li class="nav-item"><a href="about.html" class="nav-link">À propos</a>
+                    <li class="nav-item active"><a href="blog.html" class="nav-link">Blog</a></li>
+                       <!-- <a href="#" class="nav-link dropdown-toggle" id="aboutDropdownBtn" data-toggle="dropdown">À propos</a> -->
+                       <!-- <ul class="dropdown-menu">
+                           <li class="dropdown-item"><a href="about.html">Notre histoire</a></li>
+                           <li class="dropdown-item"><a href="about.html">L'équipe</a></li>
+                           <li class="dropdown-item"><a href="about.html">Presse</a></li>
+                       </ul> -->
+                   </li>
+                   <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                   <li class="nav-item" id="cv"><a href="CV_Giovanni_VENTOSO_2020.pdf" target=_blank class="nav-link">Mon CV</a></li>
+                </ul><!--end ul.navbar-nav-->
+            </nav>
+                    
+                   
+               
+            
+            <!-- <form class="form-inline" id="searchForm">
+               <div class="input-group"> -->
+                
+                  <!-- <input type="search" name="q" placeholder="Rechercher" class="form-control" /> -->
+                  <!-- <div class="input-group-append">
+                      <button class="btn btn-primary"><i class="fas fa-search"></i></button>
+                  </div> -->
+               <!-- </div>end div.input-group in form#searchForm -->
+            <!-- </form>end form#searchForm -->
+        </div><!--end div#navbar-content.navbar-collapse-->
+   </header><!--End header.navbar-->
+   <pre>
+
+
+
+
+   </pre>
+   <main class="container-fluid mb-4" >
+       <section class="row my-4">
+           <div class="col-12 col-md-9">
+             <!--Begin Breadcrumb-->
+              <nav>
+                   <ol class="breadcrumb">
+                       <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+                       <li class="breadcrumb-item active">Blog</li>
+                   </ol>
+              </nav>
+              <!--End Breadcrumb-->
+              <!--Begin Top pagination-->
+               <!-- <nav>
+                  <ul class="pagination justify-content-center">
+                   <li class="page-item disabled"><a href="#" class="page-link">&laquo;</a></li>
+                   <li class="page-item active"><a href="#" class="page-link">1</a></li>
+                   <li class="page-item"><a href="#" class="page-link">2</a></li>
+                   <li class="page-item"><a href="#" class="page-link">3</a></li>
+                   <li class="page-item"><a href="#" class="page-link">&raquo;</a></li>
+                  </ul>
+               </nav> -->
+               <!--End Top pagination-->
+               <div class="list-group list-group-flush mb-3 mt-5">
+                   <article class="list-group-item list-group-item-action">
+                      <div class="row">
+                          <div class="col12 col-md-4">
+                              <img src="images/fincompta.png" class="img-fluid img-thumbnail" alt="arbre">
+                          </div>
+                          <div class="col12 col-md-8">
+                              <h1 class="h3">Stage Finance/Comptabilité</h1>
+                               <p class="text-justify">J’ai commencé ma première expérience professionnelle lors d’un stage obligatoire de fin d’année effectué à Maritima Médias dans le cadre de l’obtention de mon diplôme de Gestion d’Entreprises à l’IUT d’Aix-en-Provence. C’est là-bas que j’ai découvert le monde du travail et ses difficultés. </p>
+                               <a class="btn btn-primary" href="blogPost.html">En savoir plus</a>
+                          </div><!---End second column of Article-->
+                      </div>
+                   </article><!--end article.list-group-item-->
+                   <article class="list-group-item list-group-item-action">
+                      <div class="row">
+                          <div class="col12 col-md-4">
+                              <img src="images/securite.png" class="img-fluid img-thumbnail" alt="Brouillard">
+                          </div>
+                          <div class="col12 col-md-8">
+                              <h1 class="h3">Agent de sécurité</h1>
+                               <p class="text-justify">Cette expérience fût la plus courte mais l’une des plus enrichissante humainement parlant. En effet, j’ai travaillé un été en tant qu’agent de sécurité dans un centre commercial. Ce métier particulier, parfois dénigré, reste un métier à part entière comme n’importe quel autre métier et avec des responsabilités. </p>
+                               <a class="btn btn-primary" href="agent.html">En savoir plus</a>
+                          </div><!---End second column of Article-->
+                      </div>
+                   </article><!--end article.list-group-item-->
+                   <article class="list-group-item list-group-item-action">
+                      <div class="row">
+                          <div class="col12 col-md-4">
+                              <img src="images/laposte.png" class="img-fluid img-thumbnail" alt="Chalet">
+                          </div>
+                          <div class="col12 col-md-8">
+                              <h1 class="h3">Chauffeur/Livreur</h1>
+                               <p class="text-justify">Avant de commencer ma formation à Ynov, j’ai travaillé pendant 3 ans en tant que livreur à La Poste. Cette expérience est bien sûr la plus longue jusqu’à maintenant et on en apprend encore plus que les fois précédentes. </p>
+                               <a class="btn btn-primary" href="livreur.html">En savoir plus</a>
+                          </div><!---End second column of Article-->
+                      </div>
+                   </article><!--end article.list-group-item-->
+                   <article class="list-group-item list-group-item-action">
+                      <div class="row">
+                          <div class="col12 col-md-4">
+                              <img src="images/stageinfo.png" class="img-fluid img-thumbnail" alt="Rivière">
+                          </div>
+                          <div class="col12 col-md-8">
+                              <h1 class="h3">Stage Informatique</h1>
+                               <p class="text-justify">Je me suis rendu dans une entreprise informatique de réseau et télécommunication dans le cadre 
+                                   de mon stage de fin d’année avec l’école Ynov située à Aix-en-Provence. Grâce à ce stage, 
+                                   j’ai pu découvrir les métiers de l’informatique et notamment celui de technicien réseau.</p>
+                               <a class="btn btn-primary" href="stage.html">En savoir plus</a>
+                          </div><!---End second column of Article-->
+                      </div>
+                   </article><!--end article.list-group-item-->
+                   <article class="list-group-item list-group-item-action">
+                      <div class="row">
+                          <div class="col12 col-md-4">
+                              <img src="images/boot.png" class="img-fluid img-thumbnail" alt="Bootstrap">
+                          </div>
+                          <div class="col12 col-md-8">
+                              <h1 class="h3">Formation Bootstrap</h1>
+                               <p class="text-justify">
+                                    À l'issue de ma première à Ynov, nous avions pour consigne de réaliser notre propre site personnel 
+                                    dans lequel nous devons parler de nous-même et de nos expériences professionnelles. Ce site est celui
+                                    que vous êtes en train de consulter actuellement.
+                               </p>
+                               <a class="btn btn-primary" href="bootstrap.html">En savoir plus</a>
+                          </div><!---End second column of Article-->
+                      </div>
+                   </article><!--end article.list-group-item-->
+               </div><!--End div.list-group-->
+               <!--Begin Bottom pagination-->
+               <!-- <nav>
+                  <ul class="pagination justify-content-center">
+                   <li class="page-item disabled"><a href="#" class="page-link">&laquo;</a></li>
+                   <li class="page-item active"><a href="#" class="page-link">1</a></li>
+                   <li class="page-item"><a href="#" class="page-link">2</a></li>
+                   <li class="page-item"><a href="#" class="page-link">3</a></li>
+                   <li class="page-item"><a href="#" class="page-link">&raquo;</a></li>
+                  </ul>
+               </nav> -->
+               <!--End Bottom pagination-->
+           </div><!--End first column-->
+           <!-- <div class="col-12 col-md-3"> -->
+               <!-- <section class="card"> -->
+                   <!-- <div class="card-header bg-primary text-white"> -->
+                       <!-- <h1 class="h5">Catégories</h1> -->
+                   </div><!--end .card-header-->
+                   <!-- <ul class="list-group"> -->
+                       <!-- <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"><a href="#">Catégorie 1</a><span class="badge badge-pill badge-primary">2</span></li> -->
+                       <!-- <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"><a href="#">Catégorie 2</a><span class="badge badge-pill badge-primary">10</span></li> -->
+                       <!-- <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"><a href="#">Catégorie 3</a><span class="badge badge-pill badge-primary">6</span></li> -->
+                       <!-- <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"><a href="#">Catégorie 4</a><span class="badge badge-pill badge-primary">8</span></li> -->
+                       <!-- <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"><a href="#">Catégorie 5</a><span class="badge badge-pill badge-primary">23</span></li> -->
+                   <!-- </ul> -->
+               <!-- </section>end Category section -->
+           <!-- </div>End second column -->
+       </section><!--end section.row-->
+   </main><!--end main.container-fluid-->
+   <footer class="bg-dark text-light py-4">
+    <div class="container-fluid">
+       <div class="row">
+         <div class="col-12 d-flex justify-content-center small">
+             <ul class="nav">
+                 <li class="nav-item"><a href="https://www.linkedin.com/in/giovanni-ventoso-4aab7119b/"><img src="images/linkdin-removebg-preview.png" alt="lk" class="logo"></a></li>
+                 <li class="nav-item"><a href="mailto:giovanni.ventoso@gmail.com"><img src="images/gmail-removebg-preview.png" alt="gmail" class="logo"></a></li>
+                 <li class="nav-item"><a href="https://www.facebook.com/giovanni.ventoso"><img src="images/fb1.png" alt="fb" class="logo"></a></li>
+             </ul>
+         </div>
+           <div class="col-12 d-flex justify-content-end small">
+               <p class="mb-0">&copy; Copyright</p>
+               <ul class="nav">
+                   <li class="nav-item"><a href="#" class="nav-link py-0 text-info">Vie privée</a></li>
+                   <li class="nav-item"><a href="#" class="nav-link py-0 text-info">Conditions d'utilisation</a></li>
+               </ul>
+           </div>
+       </div><!--End .row in footer-->
+    </div><!--End container-fluid in footer-->
+</footer><!--end of main Footer-->
+
+<!--Support JS Files-->
+<script src="js/fontawesome-all.min.js"></script>
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
