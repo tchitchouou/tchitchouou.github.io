@@ -1,0 +1,59 @@
+nav ul li{
+    font-size: large;
+}
+
+.logo{
+    width: 50px;
+}
+
+body{
+    padding-bottom: 0%;
+    padding-top: 75px;
+}
+
+hr{
+    border: none;
+    border-top: 3px double red;
+    color: red;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+
+
+#image{
+    height: 500px;
+    width: 900px;
+}
+
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+    font-size: xx-large;
+}
+
+#texte{
+    font-size: 50px;
+}
+
+.firstname{
+    animation: rainbow 5s linear alternate infinite;
+    margin-top: 25px;
+}
+
+@keyframes rainbow {
+    0% {color: red;}
+    50% {color: green;}
+    75%{color: blue;}
+    100% {color: yellow;}
+    
+}
+/* header nav ul li{
+    justify-content: space-between;
+} */
+
+/* #cv{
+    text-align: right;
+} */
